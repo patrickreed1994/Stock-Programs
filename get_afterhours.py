@@ -12,5 +12,3 @@ def get_highest():
 			if len(m[i]) < 6:
 				highestlist.append(m[i])
 	return highestlist
-	
-print get_highest()
