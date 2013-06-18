@@ -21,5 +21,3 @@ def update():
 		time.sleep(30)
 		stocktime = time.strftime("%H:%M:%S +0000", time.localtime())
 		print stocktime, get_highpenny()
-	
-print update()
