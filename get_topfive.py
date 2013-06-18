@@ -12,5 +12,5 @@ def get_topfive():
 		for i in range(5):
 			topfive.append(totallist[i])
 	else:
-		topfive = 'Done fucked up'
+		topfive = 'Got an error'
 	return topfive
