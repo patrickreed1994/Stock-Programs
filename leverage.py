@@ -23,5 +23,3 @@ def calc_leverage(a):
 		return (a, leverage, 'Nothing there')
 	if leverage < 0:
 		return (a, leverage, 'Sell')
-		
-print calc_leverage('cmkm')
